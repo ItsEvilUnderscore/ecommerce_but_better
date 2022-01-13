@@ -14,3 +14,22 @@ body{
 .bg-black{
     background-color:black;
 }
+/*    slider    */
+.carousel-item{
+    height: 600px;
+}
+.carousel-image-1{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
+    url('./Images/test-image-1.png');
+    background-size: cover;
+}
+.carousel-image-2{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
+    url('./Images/test-image-2.png');
+    background-size: cover;
+}
+.carousel-image-3{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
+    url('./Images/test-image-3.png');
+    background-size: cover;
+}
