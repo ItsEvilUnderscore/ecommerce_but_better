@@ -1,50 +1,6 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-    <title>E-commerce Project</title>
-    <link rel="stylesheet" href="main.css">
-    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
-   </head>
-  <body>
-    <!--Nav-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-black">
-        <div class="container">
-          <a href="#" class="navbar-brand">Just Below Zero</a>
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a href="#"class="nav-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Services</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Products</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link"><i class="fas fa-shopping-cart fa-2x"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <!--End of NAv-->
+<?php
+      include "header.php";
+    ?>
       <!-- SLIDER -->
       <section id="main">
         <div id="Carousel" class="carousel slide" data-ride="carousel">
@@ -59,7 +15,7 @@
                 <div class="carousel-caption d-none d-sm-block text-right mb-5">
                   <h1 class="display-3 h-color">Perfect for Winter</h1>
                   <p class="lead">Along with winter comes the cold weather and the snow! Our apparel and accessories are sure to keep you warm this winter.</p>
-                  <a href="#" class="btn btn-color slide-btn btn-lg">Sign Up Now</a>
+                  <a href="#" class="btn btn-color slide-btn btn-lg">Sign Up Now!</a>
                 </div>
               </div>
             </div>
@@ -67,10 +23,10 @@
             <div class="carousel-item carousel-image-2">
               <div class="container">
                 <div class="carousel-caption d-none d-sm-block mb-5">
-                  <h1 class="display-3 h-color">Heading Two</h1>
-                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                    quod aliquid inventore vero perspiciatis.</p>
-                  <a href="#" class="btn btn-color slide-btn btn-lg">Learn More</a>
+                  <h1 class="display-3 h-color">WAIT!!</h1>
+                  <p class="lead">Look at you! You found the hidden button to the switch.php file! You should be proud of yourself! You looked at the thing too long and here I am...
+                    You know, there are sevral other hidden buttons around here... I <i>couuuld</i> make this fun....</p>
+                  <a href="switch.php" class="btn btn-color slide-btn btn-lg">Hidden Switch</a>
                 </div>
               </div>
             </div>
@@ -151,7 +107,7 @@
       <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
          <div class="card single-item">
           <div class="img-container">
-            <img src="./Images/image1.png" class="card-img-top product-img product-img-size" alt="">
+            <img src="https://drive.google.com/uc?export=view&id=1Xas7xhcgFRQD7vRjsXRmhWv13fez0lM3" class="card-img-top product-img product-img-size" alt="">
             </div>
           <div class="card-body">
             <div class="card-text d-flex justify-content-between text-capitalize">
@@ -166,7 +122,7 @@
       <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
         <div class="card single-item">
           <div class="img-container">
-            <img src="./Images/image2.png" class="card-img-top product-img product-img-size" alt="">
+            <img src="https://drive.google.com/uc?export=view&id=1DSfepizqf3MwbPfYZDaxpTnbubpmj90C" class="card-img-top product-img product-img-size" alt="">
            </div>
           <div class="card-body">
             <div class="card-text d-flex justify-content-between text-capitalize">
@@ -181,7 +137,7 @@
       <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
         <div class="card single-item">
           <div class="img-container">
-            <img src="./Images/image3.png" class="card-img-top product-img product-img-size" alt="">
+            <img src="https://drive.google.com/uc?export=view&id=1xZ2bwRelAXloxn1L865hpNZi2Pb_xSOE" class="card-img-top product-img product-img-size" alt="">
             </div>
           <div class="card-body">
             <div class="card-text d-flex justify-content-between text-capitalize">
@@ -453,36 +409,11 @@
       </div>
   </section>
   <!--End of Contact Section-->
-    <!--Footer-->
-    <footer class="footer mt-5">
-      <div class="text-center py-5">
-          <h2 class="py-3">Just Below Zero</h2>
-         <div class="mx-auto heading-line"></div>
-       </div>
-      <div class="container">
-          <div class="row mb-3">
-              <div class="col-lg-8 offset-lg-2 text-center">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla aliquet est nec aliquet. 
-                    Cras convallis ultrices sem, id cursus tellus varius. </p>
-                  <div class="justify-content-center">
-                    <i class="fab fa-facebook fa-2x"></i>
-                    <i class="fab fa-twitter fa-2x"></i>
-                    <i class="fab fa-instagram fa-2x"></i>
-                    
-                    </div>
-             </div>
-          </div>
-          <div class="copyright text-center py-3 border-top text-light">
-            <p>&copy; Copyright Just Below Zero 2022</p>
-              
-          </div>
-      </div>
+  
+<?php
+  include "footer.php";
+?>
 
-  </footer>
-
-
-
- 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

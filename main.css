@@ -1,6 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.white{
+  color: #fff;
+}
 /*=====Navbar===========*/
 .navbar .nav-link{
     font-size: 14px;
@@ -29,7 +32,7 @@ body{
 }
 .carousel-image-1{
     background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), 
-    url('./Images/carousel1.png');
+    url('https://drive.google.com/file/d/1qV9qqm-Lu_d5LhS_899t4MLaEBs2fnru/view?usp=sharing');
     background-size: cover;
 }
 .carousel-image-2{
