@@ -1,5 +1,8 @@
 <?php
       include "header.php";
+      
+      setcookie("name", "Eli", time() + 172800);
+      
     ?>
       <!-- SLIDER -->
       <section id="main">
@@ -34,9 +37,8 @@
             <div class="carousel-item carousel-image-3">
               <div class="container">
                 <div class="carousel-caption d-none d-sm-block text-right mb-5">
-                  <h1 class="display-3 h-color">Heading Three</h1>
-                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, aperiam vel ullam deleniti reiciendis ratione
-                    quod aliquid inventore vero perspiciatis.</p>
+                  <h1 class="display-3 h-color">I HAVE A QUEST FOR THOU</h1>
+                  <p class="lead">FYI, I could have totally hidden other secret little links to special little pages in this page. You should totally try to find them!</p>
                   <a href="#" class="btn btn-color slide-btn btn-lg">Learn More</a>
                 </div>
               </div>
@@ -409,11 +411,11 @@
       </div>
   </section>
   <!--End of Contact Section-->
-  
-<?php
+
+  <?php
+
   include "footer.php";
 ?>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

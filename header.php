@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -15,14 +18,14 @@
     <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-black">
         <div class="container">
-          <a href="#" class="navbar-brand">Just Below Zero</a>
+          <a href="index.php" class="navbar-brand">Just Below Zero</a>
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a href="index.php"class="nav-link">Home</a>
+              <li class="nav-item">
+                <a href="post.php" class="nav-link">Post</a>
               </li>
               <li class="nav-item">
                 <a href="calculator.php" class="nav-link">Calculator</a>
@@ -39,10 +42,29 @@
               <li class="nav-item">
                 <a href="#" class="nav-link"><i class="fas fa-shopping-cart fa-2x"></i></a>
               </li>
+              <li class="nav-item">
+                
+              <a href="index.php" class="nav-link">
+                <?php
+
+                  if (isset($_SESSION['username'])){
+                    echo $_SESSION['username'];
+                  } else {
+                    echo "Log In";
+                  }
+
+                ?>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
     </nav>
+<?php
 
+$_SESSION['username'] = "xX-Eli-West-Xx";
+
+?>
+    
 
     <!-- nav and head info -->
