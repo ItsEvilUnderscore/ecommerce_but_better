@@ -3,15 +3,17 @@ body{
 }
 .white{
   color: #fff;
+  text-decoration: none;
 }
 .white:hover{
-  color: #ddd;
-}
-#signup-jbz{
   color: #fff;
 }
-#signup-jbz:hover{
-  color: #ddd;
+.l-grey{
+color: #ddd;
+text-decoration: none;
+}
+.l-grey:hover{
+color: #ddd;
 }
 .center{
   text-align: center;

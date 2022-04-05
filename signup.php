@@ -17,8 +17,8 @@
    </head>
 <body class="bg-black">
 <main>
-    <div class="text-center white">
-        <a href="index.php" id="signup-jbz"><h2 class="py-3 nav-link">Just Below Zero</h2></a>
+    <div class="text-center h-color">
+        <a href="index.php" class="h-color nav-link"><h2 class="py-3 white">Just Below Zero</h2></a>
         <div class="container">
           <div class="row mb-3">
               <div class="col-lg-8 offset-lg-2 text-center">
@@ -26,8 +26,8 @@
                     <form>
                         <input type="text" name="uid" placeholder="Username"><br><br>
                         <input type="text" name="mail" placeholder="E-Mail"><br><br>
-                        <input type="text" name="pass" placeholder="Password"><br><br>
-                        <input type="text" name="pass" placeholder="Retype Password"><br><br>
+                        <input type="password" name="pwd" placeholder="Password"><br><br>
+                        <input type="password" name="pwd-repeat" placeholder="Retype Password"><br><br>
                         <button type="submit" name="signup-submit" class="btn-color-inv btn-lg">Sign Up</button>
                     </form>
 
