@@ -18,6 +18,9 @@ color: #ddd;
 .center{
   text-align: center;
 }
+.error{
+  color: rgb(224, 52, 60);
+}
 /*=====Navbar===========*/
 .navbar .nav-link{
     font-size: 14px;
@@ -43,21 +46,6 @@ color: #ddd;
 /*=========Slider Section ============*/
 .carousel-item{
     height: 600px;
-}
-.carousel-image-1{
-    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), 
-    url('https://drive.google.com/file/d/1qV9qqm-Lu_d5LhS_899t4MLaEBs2fnru/view?usp=sharing');
-    background-size: cover;
-}
-.carousel-image-2{
-    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
-     url('./Images/image9.jpg');
-    background-size: cover;
-}
-.carousel-image-3{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
-     url('./Images/image1.jpg');
-    background-size: cover;
 }
 .h-color{
     color:#fff;

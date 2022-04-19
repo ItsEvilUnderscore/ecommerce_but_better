@@ -1,5 +1,6 @@
 <?php
     session_start();
+    require './includes/dbh.inc.php';
 ?>
 <!doctype html>
 <html lang="en">
@@ -39,32 +40,54 @@
               <li class="nav-item">
                 <a href="variables.php" class="nav-link">Variables</a>
               </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link"><i class="fas fa-shopping-cart fa-2x"></i></a>
-              </li>
-              <li class="nav-item">
-                
-              <a href="index.php" class="nav-link">
-                <?php
-
-                  if (isset($_SESSION['username'])){
-                    echo $_SESSION['username'];
-                  } else {
-                    echo "Log In";
-                  }
-
-                ?>
-                </a>
-              </li>
+              <?php
+                if (isset($_SESSION['userId'])) {
+                  echo '
+                  <li class="nav-item">
+                    <a href="#" class="nav-link"><i class="fas fa-shopping-cart fa-2x"></i></a>
+                  </li>
+                  ';
+                } else {
+                  echo '
+                  <li class="nav-item">
+                    <a href="signup.php" class="nav-link"><i class="fas fa-shopping-cart fa-2x"></i></a>
+                  </li>
+                  ';
+                }
+              ?>
+              <?php
+                if (isset($_SESSION['userId'])) {
+                  echo '
+                  <li class="nav-item">
+                  <a href="index.php" class="nav-link">'.$_SESSION['userId'].'</a>
+                  </li>
+                  ';
+                } else {
+                  echo '
+                  <li class="nav-item">
+                  <a href="login.php" class="nav-link">Login</a>
+                  </li>
+                  ';
+                }
+              ?>
+              <?php
+                if (isset($_SESSION['userId'])) {
+                  echo '<li class="nav-item">
+                      <a href="./includes/logout.inc.php" class="nav-link" name="logout-submit">Logout</a>
+                    </li>
+                    ';
+                } else {
+                  echo '
+                  <li class="nav-item">
+                      <a href="signup.php" class="nav-link">Sign Up</a>
+                    </li>
+                  ';
+                }
+              ?>
             </ul>
           </div>
         </div>
     </nav>
-<?php
-
-$_SESSION['username'] = "xX-Eli-West-Xx";
-
-?>
     
 
     <!-- nav and head info -->

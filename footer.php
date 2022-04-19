@@ -1,7 +1,7 @@
     <!--Footer-->
     <footer class="footer mt-5">
       <div class="text-center py-5">
-          <h2 class="py-3">Just Below Zero</h2>
+        <a href="index.php" class="h-color nav-link"><h2 class="py-3 white">Just Below Zero</h2></a>
          <div class="mx-auto heading-line"></div>
        </div>
       <div class="container">

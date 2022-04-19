@@ -7,11 +7,16 @@ very colors
 
 
 
+                  <button type="submit" name="logout-submit" class="btn-color btn-sm">Logout</button>
 
         
 
 
 
+    header("Location: ../signup.php");
+    exit();
+
+    test tes test r u good?
 
 
 
